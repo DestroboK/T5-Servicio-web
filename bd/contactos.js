@@ -1,20 +1,20 @@
 const knex = require("./knex");
 
 function crearContacto(contacto) {
-    return knex("Contactos").insert(car);
-}
+    return knex("Contacto").insert(contacto);
+};
 
 function obtenerContactos(){
-    return knex("Contactos").select("*");
-}
+    return knex("Contacto").select("*");
+};
 
 
 function borrarContacto(id){
-    return knex("Contactos").where("id", id).del();
-}
+    return knex("Contacto").where("id", id).del();
+};
 
 module.exports = {
     crearContacto,
     obtenerContactos,
     borrarContacto
-}
+};
