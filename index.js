@@ -21,8 +21,10 @@ app.get("/contactos", async (req,res)=>{
 
 app.post("/contactos", async (req,res)=>{
     const resultados = await bd.crearContacto(req.body);
-    res.status(201).json({id: resultados[0]});
+    res.status(201).json({id: resultados[0]}); //Devolvemos el valor del ID cuando el POST sale bien
 });
+
+
 
 app.delete("/contactos/:id", async (req,res)=>{
     await bd.borrarContacto(req.params.id);
