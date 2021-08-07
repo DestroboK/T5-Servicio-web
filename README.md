@@ -4,9 +4,9 @@ API sencilla hecha con expressJS que permite POST, GET y DELETE de contactos. Se
 A continuación todos usando Insomnia para hacer las solicitudes cuando la app se está ejecutando.
 
 Captura del programa;
-##`/contactos` - POST
+## `/contactos` - POST
 ![Ejecutando POST](POST.PNG)
-##`/contactos` - GET
+## `/contactos` - GET
 ![Ejecutando GET](GET.PNG)
-##`/contactos/:id` - DELETE
+## `/contactos/:id` - DELETE
 ![Ejecutando DELETE](DELETE.PNG)
