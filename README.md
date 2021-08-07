@@ -5,8 +5,8 @@ A continuación todos usando Insomnia para hacer las solicitudes cuando la app s
 
 Captura del programa;
 ##`/contactos` - POST
-![Ejecutando POST](POST.png)
+![Ejecutando POST](POST.PNG)
 ##`/contactos` - GET
-![Ejecutando GET](GET.png)
+![Ejecutando GET](GET.PNG)
 ##`/contactos/:id` - DELETE
-![Ejecutando DELETE](DELETE.png)
+![Ejecutando DELETE](DELETE.PNG)
